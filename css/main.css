@@ -8,5 +8,10 @@ body {
 .navbar img {
   height: 150px;
 }
+.navbar li {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
 
 /*# sourceMappingURL=main.css.map */
