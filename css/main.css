@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-  background-color: #f3e2c2;
+  background-color: #ebd5ad;
 }
 
 img {
@@ -49,6 +49,33 @@ div p {
   padding: 2rem;
   font-size: 25px;
   color: #633737;
+}
+
+footer .text {
+  padding: 1rem;
+  display: flex-end;
+  background-color: #ebd5ad;
+}
+footer .links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+footer .logo_a {
+  height: 50px;
+}
+footer .h3 {
+  padding: 3rem;
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  color: #86865f;
+}
+footer .container {
+  font-size: 25px;
+  color: #86865f;
 }
 
 /*# sourceMappingURL=main.css.map */
