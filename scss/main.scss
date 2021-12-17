@@ -1,13 +1,11 @@
 @import "colores";
-@import "bordes";
 
 body{
     background-color: beige;
 }
 
 .navbar{
-    div{
-        background-color:$color-nyf
+    background-color:$colornyf;
     }
     img{
         height: 150px;
@@ -17,6 +15,20 @@ body{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: black;
     }
+    
+header{
+    img{
+        height: 555px;
+    }
 }
 
-
+div{
+    h2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        color: rgb(110, 105, 57);
+    }
+}
