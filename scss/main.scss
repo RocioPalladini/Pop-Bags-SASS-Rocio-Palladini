@@ -1,10 +1,13 @@
+@import "colores";
+@import "bordes";
+
 body{
     background-color: beige;
 }
 
 .navbar{
     div{
-        background-color: rgb(241, 217, 170);
+        background-color:$color-nyf
     }
     img{
         height: 150px;
