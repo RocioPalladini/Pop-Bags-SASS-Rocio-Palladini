@@ -28,5 +28,27 @@ div h2 {
   padding: 2rem;
   color: #6e6939;
 }
+div h3 {
+  padding: 2rem;
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  color: #86865f;
+}
+div .masvendidosimg {
+  display: inline;
+  height: 400px;
+  border-bottom: 2px solid rosybrown;
+  border-top: 2px solid rosybrown;
+  border-left: 2px solid rosybrown;
+  border-right: 2px solid rosybrown;
+  margin: 2rem;
+}
+div p {
+  padding: 2rem;
+  font-size: 25px;
+  color: #633737;
+}
 
 /*# sourceMappingURL=main.css.map */
