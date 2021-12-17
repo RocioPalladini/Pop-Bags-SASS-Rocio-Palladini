@@ -17,7 +17,7 @@ body{
     }
     
 header{
-    img{
+    .totes{
         height: 555px;
     }
 }
@@ -84,6 +84,11 @@ footer{
             }
 }
 
+@media(min-width:576){
+    .totes{
+        width: 40px;
+    }
 
+}
 
 

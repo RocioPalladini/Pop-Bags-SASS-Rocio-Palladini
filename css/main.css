@@ -16,7 +16,7 @@ li {
   color: black;
 }
 
-header img {
+header .totes {
   height: 555px;
 }
 
@@ -76,6 +76,12 @@ footer .h3 {
 footer .container {
   font-size: 25px;
   color: #86865f;
+}
+
+@media (min-width: 576) {
+  .totes {
+    width: 40px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
