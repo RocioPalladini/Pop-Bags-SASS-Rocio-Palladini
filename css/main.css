@@ -41,13 +41,6 @@ header .tote {
   text-align: center;
   align-content: center;
 }
-.masvendidos .masvendidosimg {
-  height: 400px;
-  border-bottom: 2px solid rosybrown;
-  border-top: 2px solid rosybrown;
-  border-left: 2px solid rosybrown;
-  border-right: 2px solid rosybrown;
-}
 .masvendidos .descripcionalbum {
   display: flex;
   justify-content: center;
@@ -80,4 +73,19 @@ footer .h3 {
 }
 footer .container {
   font-size: 25px;
+}
+
+.masvendidosimg1 {
+  border: 2px solid rosybrown;
+  height: 400px;
+}
+
+.masvendidosimg2 {
+  border: 2px solid #aa8787;
+  height: 400px;
+}
+
+.masvendidosimg3 {
+  border: 2px solid #664c4c;
+  height: 400px;
 }/*# sourceMappingURL=main.css.map */
