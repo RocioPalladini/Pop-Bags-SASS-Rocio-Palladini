@@ -25,7 +25,7 @@ header .tote {
 }
 
 .masvendidos {
-  height: 1700px;
+  height: 1900px;
 }
 .masvendidos h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -35,20 +35,24 @@ header .tote {
   padding: 2rem;
   color: #6e6939;
 }
-.masvendidos .fotoproducto {
+.masvendidos .fotoproducto, .masvendidos .descrpcionalbum {
   display: flex;
   justify-content: center;
   text-align: center;
   align-content: center;
 }
-.masvendidos .descripcionalbum {
-  display: flex;
-  justify-content: center;
-}
 .masvendidos .parrafo {
   font-size: 25px;
   color: #633737;
   margin: 2rem;
+}
+.masvendidos .masvendidosimg1 {
+  border: 2px solid rosybrown;
+  height: 400px;
+}
+.masvendidos .masvendidosimg3 {
+  border: 2px solid #664c4c;
+  height: 400px;
 }
 
 footer {
@@ -60,32 +64,9 @@ footer .links {
   align-items: center;
   padding: 2rem;
 }
-footer .logo_a {
-  height: 50px;
-}
-footer .h3 {
-  padding: 3rem;
-  display: flex;
-  font-size: 40px;
-  align-items: center;
-  justify-content: center;
-  color: #86865f;
-}
 footer .container {
   font-size: 25px;
 }
-
-.masvendidosimg1 {
-  border: 2px solid rosybrown;
-  height: 400px;
-}
-
-.masvendidosimg2 {
-  border: 2px solid #aa8787;
-  height: 400px;
-}
-
-.masvendidosimg3 {
-  border: 2px solid #664c4c;
-  height: 400px;
+footer .redes {
+  height: 50px;
 }/*# sourceMappingURL=main.css.map */

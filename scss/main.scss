@@ -1,5 +1,4 @@
-@import "colores";
-
+@import "variables";
 
 body{
     background-color: beige;
@@ -16,7 +15,6 @@ body{
         color: black;
     }
 }
-
 header{
     display: flex;
     justify-content: center;
@@ -26,9 +24,8 @@ header{
         border-radius: 70px;
     }
 }
-
 .masvendidos{
-    height: 1700px;
+    height: 1900px;
     h2{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
@@ -38,23 +35,30 @@ header{
         color: rgb(110, 105, 57);
     }
     .fotoproducto{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-    }
-
-    .descripcionalbum{
         display: flex;
         justify-content: center;
+        text-align: center;
+        align-content: center;
+        }
+    .descrpcionalbum{
+        @extend .fotoproducto
     }
     .parrafo{
         font-size: 25px;
         color: rgb(99, 55, 55);
         margin: 2rem;
     }
+    @mixin producto ($border) {
+        border: 2px solid $border;
+        height: 400px;
+    }
+    .masvendidosimg1{
+        @include producto(rosybrown)
+    }
+    .masvendidosimg3{
+        @include producto(rgb(102, 76, 76))
+    }
 }
-
 footer{
     background-color:$colornyf;
     .links{
@@ -62,35 +66,12 @@ footer{
         justify-content: space-evenly;
         align-items: center;
         padding: 2rem;      
-        }
-        .logo_a{
-            height: 50px;
-        }
-        .h3{
-            padding: 3rem;
-            display: flex;
-            font-size: 40px;
-            align-items: center;
-            justify-content: center;
-            color: rgb(134, 134, 95);
     }
+   
     .container{
         font-size: 25px;
     }
-}
-
-@mixin producto ($border) {
-    border: 2px solid $border;
-    height: 400px;
-
-}
-
-.masvendidosimg1{
-    @include producto(rosybrown)
-}
-.masvendidosimg2{
-    @include producto(rgb(170, 135, 135))
-}
-.masvendidosimg3{
-    @include producto(rgb(102, 76, 76))
+    .redes{
+        height: 50px;
+    }
 }
